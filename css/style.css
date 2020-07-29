@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');/* Global CSS */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	background: #fff;
+}
+.container{
+	width: 1750px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.container-two{
+	width:100%;
+	overflow: hidden;
+	background: #f6f6f6;
+}
+/* Navigation Bar CSS */
+.top-bar{
+	background: #fff;
+	height: 70px;
+}
+.logo{
+	width: 50%;
+	float: left;
+	padding-top: 24px;
+}
+.nav-bar{
+	width: 50%;
+	float: right;
+	padding-top: 24px;
+}
+.nav-bar ul li{
+	list-style: none;
+	display: inline;
+	float: right;
+	padding-left: 30px;
+}
+.nav-bar ul li :hover{
+	cursor: pointer;
+	color: #40d4cf;
+}
+/* About Section CSS */
+.about-left{
+	width: 50%;
+	float: left;
+	background: #f6f6f6;
+}	
+.text-area{
+	padding: 100px 0px 100px 80px;
+}
+.text-area p{
+	color: #808080;
+}
+.text-area h3{
+	padding-bottom: 30px;
+	font-size: 40px;
+}
+.paragraph{
+	line-height: 28px;
+    padding-bottom: 25px;
+    margin-right: 150px;
+}
+.paragraph-bold{
+	padding-bottom: 13px;
+}
+.bold{
+	color: #171717;
+}
+.about-right{
+	width: 50%;
+	float: left;
+	background: #e6e6e6;
+	height: 536px;
+}	
+/* Projects Section Start */
+.projects-section{
+	width: 100%;
+	background: #fff;
+	padding: 25px 0px;
+	height: 15px;
+}
+.left-section{
+	width: 50%;
+	float: left;
+}
+.right-section{
+	width: 50%;
+	float: left;
+}
+.left-one{
+	padding-left: 80px;
+}
+.right-one{
+	float: right;
+	padding-right: 90px;
+}
+/* Footer Section CSS */
+.footer-section{
+	background: #141414;
+}
+.list-area{
+	padding: 150px 0px;
+}
+.copyright-section{
+	width: 30%;
+	float: left;
+}
+.contact-section{
+	width: 20%;
+	float: left;
+}
+.project-section{
+	width: 15%;
+	float: left;
+}
+.news-section{
+	width: 15%;
+	float: left;
+}
+.social-media{
+	width: 20%;
+	float: left;
+}
+.copyright-section, .contact-section, .project-section, .news-section, .social-media{
+	color: white;
+}
+.project-section ul li{
+	list-style: none;
+}
+.news-section ul li{
+	list-style: none;
+}
+.social-media ul li{
+	list-style: none;
+}
